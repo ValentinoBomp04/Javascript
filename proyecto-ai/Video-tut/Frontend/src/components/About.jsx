@@ -1,0 +1,12 @@
+import React, {Fragment} from "react";
+
+const About = () =>{
+    return(
+        <Fragment>
+            <h1>About</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia ullam assumenda eius amet, doloremque atque itaque, soluta, nisi quas sit rerum ipsum. Dolores libero eius cum, quo inventore sequi quasi illo fugit officia et itaque. Enim culpa delectus totam laboriosam quae numquam ducimus, necessitatibus officia tenetur iure eum iste. Et quae blanditiis fuga accusantium dicta voluptatem illo cupiditate sapiente iure. Et incidunt non placeat esse soluta sit atque ipsa corrupti quos corporis debitis eius, inventore unde. Saepe excepturi impedit repellat nemo facere quod eveniet similique amet deleniti. Facere delectus nemo enim perferendis recusandae velit, tempora quasi minus repudiandae repellat id tenetur quae ut, dignissimos placeat quisquam nesciunt nostrum fugiat maiores. Enim, repellat adipisci id necessitatibus doloribus nulla suscipit aliquam explicabo odit, ducimus, excepturi quasi corrupti nihil! Rem, illo sapiente, amet minus, ipsa recusandae possimus voluptate dolorem itaque similique magni illum ducimus culpa eaque quidem cupiditate? Laborum explicabo ipsum totam. Reprehenderit dolorum deleniti libero ducimus officia repellat tempore repellendus cumque sint explicabo. Aliquam consequuntur rerum ducimus impedit? Saepe, quas. Nam eius accusamus natus aut at odio, ea ducimus officiis, in sapiente voluptatem saepe deleniti esse iusto culpa eos vel error ut minima. Reiciendis fuga magni inventore minima molestias, soluta itaque fugiat alias odit ipsam ut quas. Expedita ipsam repellendus, consequuntur quae modi hic sunt doloribus in necessitatibus impedit numquam veritatis ipsa labore minus neque quia magnam, dolorem fugit similique? Suscipit consectetur fugiat quisquam laborum error quos qui atque voluptatem ut et mollitia pariatur quam doloribus corporis harum voluptas iusto saepe quasi ratione molestiae, quis labore ducimus officiis ab. Optio temporibus consequuntur soluta. Est delectus earum ipsa consequatur ad porro quibusdam voluptatum laborum officia aliquid dicta quod culpa modi, quasi eos tempora esse blanditiis asperiores. Similique est ratione voluptatem at dignissimos aliquid ipsam non doloribus earum, repellendus illo enim ipsa pariatur corporis?
+            </p>
+        </Fragment>
+    ) 
+}
+export default About
