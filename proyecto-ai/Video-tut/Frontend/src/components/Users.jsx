@@ -1,7 +1,7 @@
-import { render } from "@testing-library/react";
-import React, {Fragment, useState, useEffect} from "react";
+
+import React, {Fragment, useState, } from "react";
 import {Link} from "react-router-dom";
-import Records from "./Records";
+
 
 const API = process.env.REACT_APP_API;
 
@@ -11,25 +11,7 @@ const Users = () => {
     const [Name, setName] = useState('')
     const [Email, setEmail] = useState('')
     const [Password, setPassword] = useState('')
-    // const [Record, setRecord] = useState([])
-
-    // const getRecords = async () => {
-    //     const res = await fetch(`${API}/usuarios`)
-    //    const data = await res.json();
-    //    setRecord(data)
-    // }
-    // useEffect(() => {
-    //     getRecords();
-    // }, [])
-    const [Users, setUsers] = useState([])
-    const getUsers = async () => {
-        const res = await fetch(`${API}/usuarios`)
-        const data = await res.json();
-        setUsers(data)
-     }
-    useEffect(() => {
-        getUsers();
-    }, [])
+    
 
     const handleSubmit = async (e) =>{
         e.preventDefault();
@@ -49,7 +31,9 @@ const Users = () => {
         console.log(data)
         // await getRecords
         
-        
+        setEmail('')
+        setName('')
+        setPassword('')
     }
     
 
@@ -59,8 +43,8 @@ const Users = () => {
         <Fragment>
             <div className="row">
                 <div className="col-md-4">
-                    <form onSubmit={handleSubmit} className="card card-body">
-                        <div className="form-group">
+                    <form onSubmit={handleSubmit} className="card card-body position-absolute top-50 start-50 translate-middle">
+                        <div className="form-group ">
                             <input
                                 type="text"
                                 onChange={e => setName(e.target.value)}

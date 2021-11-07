@@ -29,8 +29,8 @@ const Records = ()=>{
 
     return(
         <Fragment>
-        <div className="col-md-10">
-            <table className="table  table-hover">
+        <div className="align-baseline align-middle">
+            <table className="table  align-baseline align-middle align-text-top ">
                 <thead className="table-dark">
 
                     <tr>
@@ -49,9 +49,7 @@ const Records = ()=>{
                                 <td>${User.Email}</td>
                                 <td>${User.Password}</td>
                                 <td>
-                                <button className="btn btn-secondary btn-sm btn-block">
-                                    Edit
-                                </button>
+                                
                                 <button 
                                     className="btn btn-danger btn-sm btn-block"
                                     onClick={()=>deleteUser(User._id)}
