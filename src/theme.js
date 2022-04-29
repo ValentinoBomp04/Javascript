@@ -1,4 +1,9 @@
 const theme = {
+    appBar:{
+        primary: '#24292e',
+        textPrimary: '#fff',
+        fontSize: 20,
+    },
     colors:{
         textPrimary: '#24292e',
         textSecondary: '#586069',
@@ -7,7 +12,8 @@ const theme = {
     },
     fontSizes: {
         body: 14,
-        subheading: 16 
+        subheading: 16, 
+        heading: 20 
     },
     fonts: {
         main:'System',

@@ -5,12 +5,17 @@ import RepositoryStats from './RepositoryStats'
 import theme from '../theme';
 
 const RepositoryItemHeader = ({ownerAvatarurl, fullName, description, language}) => (
-    <View>
+    <View style={{flexDirection: 'row', padding: 2}}>
+        <View style={{paddingRight: 10}}>
         <Image style={styles.image} source={{uri: ownerAvatarurl}}/>
-        <StyledText fontSize='subheading' fontWeight='bold' > FullName: {fullName}
+        </View>
+        <View style={{flex: 1}}>
+        <StyledText fontSize='subheading' fontWeight='bold' > {fullName}
         </StyledText>
-        <StyledText > Description: {description}</StyledText>
-        <StyledText style={styles.language}> Language: {language}</StyledText>
+        <StyledText color='secondary' > {description}</StyledText>
+        <StyledText style={styles.language}> {language} </StyledText>
+        </View>
+        
     </View>
 )
 
@@ -24,14 +29,14 @@ const RepositoryItem = (props) => (
 const styles = StyleSheet.create({
     container: {
         padding:20,
-        paddingBottom:5,
-        paddingTop: 5,
+        paddingVertical: 5,
     },
     language: {
         padding: 4,
         color: theme.colors.white,
         backgroundColor: theme.colors.primary,
         alignSelf: 'flex-start',
+        marginVertical: 4, 
         borderRadius: 4,
         overflow: 'hidden'
     },
