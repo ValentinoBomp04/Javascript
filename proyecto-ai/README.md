@@ -9,14 +9,14 @@ Enlace al video: "https://www.youtube.com/watch?v=D1W8H4Rkb9A&list=LL&index=1"
 Procedimiento
 Archivos a instalar:
 En el Backend:
-    pip install virtualenv
-    virtualenv venv ("Para hacer la carpeta donde va a estar el entorno virtual")
-    .\venv\Scripts\activate.bat
-    pip install flask Flask-PyMongo flask-cors
+pip install virtualenv
+virtualenv venv ("Para hacer la carpeta donde va a estar el entorno virtual")
+.\venv\Scripts\activate.bat
+pip install flask Flask-PyMongo flask-cors
 Para iniciar el servicio: Python [direccion del archivo]
 En el Frontend:
-    npx create-react-app app
-    npm i react-router-dom bootswatch
+npx create-react-app app
+npm i react-router-dom bootswatch
 Para iniciar el servicio: npm start 
 
     
